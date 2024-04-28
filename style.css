@@ -15,6 +15,7 @@ body {
 }
 
 header {
+    border-radius: 5px;
     background-color: #0a8153;
     color: #fff;
     text-align: center;
@@ -31,7 +32,8 @@ form {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: grid;
-    gap: 30px;
+    /*gap: 30px;*/
+    gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -77,48 +79,39 @@ select {
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     border: 2px solid red;
 }
 
-.search_edit {
-    margin: 1rem;
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border:2px solid black;
-}
-
-
-
 button {
-    padding: 10px 10px;
-    margin: 20px;
-    font-size: 1rem;
+    padding: 0.5em 0.5em;
+    font-size: 1.2rem;
     background-color: #333;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 0.5em;
 }
 
 button[type="button"] {
     background-color: #1875df;
     color: white;
-    margin: 10px;
+    margin-right: 0.5em;
+    
 }
 
 button[type="reset"] {
     background-color: #1875df;
     color: white;
-    margin: 10px;
+    
 }
 
 button[type="submit"] {
     background-color: #4CAF50;
+    
 }
 
 button:hover {
@@ -127,6 +120,7 @@ button:hover {
 }
 
 footer {
+    border-radius: 5px;
     background-color: #0a8153;
     color: #fff;
     text-align: center;
