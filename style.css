@@ -73,45 +73,45 @@ select {
 .mensagem {
     border: 1px solid #ccc;
 }
+#message {
+    background-color: #f4f4f4;;
+}
 
 .btn {
-    margin: 1rem;
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid red;
+    margin: 0 auto;
+    padding: 1em;
+    display:flex;
+    color: #f4f4f4;
+    justify-content: space-around;
+    border-radius: 4px;
+    
 }
 
 button {
     padding: 0.5em 0.5em;
-    font-size: 1.2rem;
+    width: auto;
+    font-size: auto;
+    font-weight: bold;
+    display: grid;
     background-color: #333;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 0.5em;
 }
 
 button[type="button"] {
     background-color: #1875df;
     color: white;
-    margin-right: 0.5em;
-    
 }
 
 button[type="reset"] {
     background-color: #1875df;
     color: white;
-    
 }
 
 button[type="submit"] {
-    background-color: #4CAF50;
-    
+    background-color: #0a8153;
 }
 
 button:hover {
