@@ -57,7 +57,8 @@ select {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
 }
 
 .container {
@@ -74,7 +75,7 @@ select {
     border: 1px solid #ccc;
 }
 #message {
-    background-color: #f4f4f4;;
+    background-color: #f4f4f4;
 }
 
 .btn {
@@ -83,21 +84,19 @@ select {
     display:flex;
     color: #f4f4f4;
     justify-content: space-around;
-    border-radius: 4px;
-    
 }
 
 button {
     padding: 0.5em 0.5em;
-    width: auto;
-    font-size: auto;
+    width: 12.5rem;
+    font-size: 1.1em;
     font-weight: bold;
     display: grid;
-    background-color: #333;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
+    
 }
 
 button[type="button"] {
